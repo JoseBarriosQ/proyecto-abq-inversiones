@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABQ Ingeniería - Servicios Mineros</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo-container">
+            <div class="logo">
+                <img src="assets/img/logo.png" alt="ABQ Ingeniería">
+            </div>
+            <h1 class="company-title">ABQ Ingeniería</h1>
+        </div>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li class="dropdown">
+                <a href="#servicios">Servicios <i class="fas fa-chevron-down"></i></a>
+                <ul class="dropdown-content">
+                    <li><a href="#ingenieria">Ingeniería</a></li>
+                    <li><a href="#consultoria">Consultoría</a></li>
+                    <li><a href="#desarrollo">Desarrollo de Proyectos</a></li>
+                </ul>
+            </li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="carousel-slide">
+                <img src="assets/img/Fotos1.jpg" alt="Minería 1">
+                <div class="slide-content">
+                    <h2>Experiencia en Minería</h2>
+                    <p>Soluciones integrales para la industria minera</p>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="assets/img/Fotos2.jpg" alt="Minería 2">
+                <div class="slide-content">
+                    <h2>Tecnología Avanzada</h2>
+                    <p>Utilizamos las últimas tecnologías en minería</p>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="assets/img/Fotos3.jpg" alt="Minería 3">
+                <div class="slide-content">
+                    <h2>Compromiso Ambiental</h2>
+                    <p>Minería sostenible y responsable</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-button prev"><i class="fas fa-chevron-left"></i></button>
+        <button class="carousel-button next"><i class="fas fa-chevron-right"></i></button>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-info-left">
+                <span class="info-item"><i class="fas fa-map-marker-alt"></i> Av. Principal #123, Santiago, Chile</span>
+                <span class="separator">|</span>
+                <span class="info-item"><i class="fas fa-phone"></i> +56 2 2345 6789</span>
+            </div>
+            <div class="footer-info-right">
+                <span class="info-item" id="current-datetime"></span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html> 
